@@ -13,13 +13,17 @@ gulp.task('webserver', function() {
     }));
 });
 
-//live reload html
+/* 
+Live Reload For HTML Files 
+*/
 gulp.task('html',function(){
 	gulp.src('./app/*.html')
 	.pipe(connect.reload());
 });
 
-//live reload html
+/* 
+Live Reload For HTML Files 
+*/
 gulp.task('watch',function(){
 	gulp.watch('app/index.html',['html'])
 });
