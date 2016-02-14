@@ -1,0 +1,15 @@
+{
+  "name": "gulp-testing-server",
+  "version": "1.0.0",
+  "description": "A Gulp testing server code. Tested on Max OSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
